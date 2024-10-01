@@ -53,10 +53,15 @@
             </li>
           </ul>
         </address>
+        <button class="burger-menu-btn" type="button">
+          <svg class="icon burger" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger-menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
-      <section class="section page-section-first">
+      <section class="section page-section-first hidden">
         <div class="container container-hero">
           <h1 class="page-title">Effective Solutions for Your Business</h1>
           <button type="button" class="page-title-button" data-modal-open>
@@ -65,7 +70,7 @@
         </div>
       </section>
 
-      <section class="page-section-two">
+      <section class="page-section-two hidden">
         <div class="container container-benefits">
           <h2 class="visually-hidden">About Us</h2>
           <ul class="benefits-list">
@@ -121,7 +126,7 @@
         </div>
       </section>
 
-      <section class="page-section-three">
+      <section class="page-section-three hidden">
         <div class="container container-team">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list">
@@ -300,7 +305,7 @@
           </ul>
         </div>
       </section>
-      <section class="page-section-four">
+      <section class="page-section-four hidden">
         <div class="container container-portfolio">
           <h2 class="projects">Our Portfolio</h2>
           <ul class="projects-list">
@@ -422,7 +427,7 @@
         </div>
       </section>
     </main>
-    <footer class="page-footer">
+    <footer class="page-footer hidden">
       <div class="container container-footer">
         <div class="footer-title">
           <a href="./index.html" class="logo footer-logo"
@@ -490,7 +495,7 @@
       </div>
     </footer>
 
-    <div class="backdrop" data-modal>
+    <div class="backdrop hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="icon-close" width="8" height="8">
