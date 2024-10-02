@@ -192,13 +192,14 @@
         </div>
       </section>
 
-      <section class="page-section-three hidden">
+      <section class="page-section-three">
         <div class="container container-team">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list">
             <li class="team-item">
               <img
                 class="team-img"
+                srcset="./images/img1.jpg 1x, ./images/img1@2x.jpg 2x"
                 src="./images/img1.jpg"
                 width="264"
                 height="260"
@@ -242,6 +243,7 @@
             <li class="team-item">
               <img
                 class="team-img"
+                srcset="./images/img2.jpg 1x, ./images/img2@2x.jpg 2x"
                 src="./images/img2.jpg"
                 width="264"
                 height="260"
@@ -285,6 +287,7 @@
             <li class="team-item">
               <img
                 class="team-img"
+                srcset="./images/img3.jpg 1x, ./images/img3@2x.jpg 2x"
                 src="./images/img3.jpg"
                 width="264"
                 height="260"
@@ -328,6 +331,7 @@
             <li class="team-item">
               <img
                 class="team-img"
+                srcset="./images/img4.jpg 1x, ./images/img4@2x.jpg 2x"
                 src="./images/img4.jpg"
                 width="264"
                 height="260"
@@ -371,13 +375,18 @@
           </ul>
         </div>
       </section>
-      <section class="page-section-four hidden">
+      <section class="page-section-four">
         <div class="container container-portfolio">
           <h2 class="projects">Our Portfolio</h2>
           <ul class="projects-list">
             <li class="projects-item">
-              <div class="projects-img">
+              <div class="projects-img-div">
                 <img
+                  class="projects-img"
+                  srcset="
+                    ./images/portfolio1.jpg    1x,
+                    ./images/portfolio1@2x.jpg 2x
+                  "
                   src="./images/portfolio1.jpg"
                   alt="Banking App"
                   width="360"
@@ -395,8 +404,13 @@
               </div>
             </li>
             <li class="projects-item">
-              <div class="projects-img">
+              <div class="projects-img-div">
                 <img
+                  class="projects-img"
+                  srcset="
+                    ./images/portfolio2.jpg    1x,
+                    ./images/portfolio2@2x.jpg 2x
+                  "
                   src="./images/portfolio2.jpg"
                   alt="Cashless Payment"
                   width="360"
@@ -414,8 +428,13 @@
               </div>
             </li>
             <li class="projects-item">
-              <div class="projects-img">
+              <div class="projects-img-div">
                 <img
+                  class="projects-img"
+                  srcset="
+                    ./images/portfolio3.jpg    1x,
+                    ./images/portfolio3@2x.jpg 2x
+                  "
                   src="./images/portfolio3.jpg"
                   alt="Meditation App"
                   width="360"
@@ -433,8 +452,13 @@
               </div>
             </li>
             <li class="projects-item">
-              <div class="projects-img">
+              <div class="projects-img-div">
                 <img
+                  class="projects-img"
+                  srcset="
+                    ./images/portfolio4.jpg    1x,
+                    ./images/portfolio4@2x.jpg 2x
+                  "
                   src="./images/portfolio4.jpg"
                   alt="Taxi Service"
                   width="360"
@@ -452,8 +476,13 @@
               </div>
             </li>
             <li class="projects-item">
-              <div class="projects-img">
+              <div class="projects-img-div">
                 <img
+                  class="projects-img"
+                  srcset="
+                    ./images/portfolio5.jpg    1x,
+                    ./images/portfolio5@2x.jpg 2x
+                  "
                   src="./images/portfolio5.jpg"
                   alt="Screen Illustrations"
                   width="360"
@@ -471,8 +500,13 @@
               </div>
             </li>
             <li class="projects-item">
-              <div class="projects-img">
+              <div class="projects-img-div">
                 <img
+                  class="projects-img"
+                  srcset="
+                    ./images/portfolio6.jpg    1x,
+                    ./images/portfolio6@2x.jpg 2x
+                  "
                   src="./images/portfolio6.jpg"
                   alt="Online Courses"
                   width="360"
@@ -493,12 +527,14 @@
         </div>
       </section>
     </main>
-    <footer class="page-footer hidden">
+    <footer class="page-footer">
       <div class="container container-footer">
         <div class="footer-title">
-          <a href="./index.html" class="logo footer-logo"
-            >Web<span class="logo-part">Studio</span></a
-          >
+          <div class="logo-div">
+            <a href="./index.html" class="logo footer-logo"
+              >Web<span class="logo-part">Studio</span></a
+            >
+          </div>
           <p class="footer-text">
             Increase the flow of customers and sales for your business with
             digital marketing & growth solutions.
