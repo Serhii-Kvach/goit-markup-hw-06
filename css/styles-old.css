@@ -651,6 +651,7 @@ img {
 .backdrop:not(.is-open) .modal {
   transform: translate(-50%, -100%);
 }
+
 .modal-close-btn {
   display: flex;
   justify-content: center;
