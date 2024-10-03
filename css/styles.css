@@ -734,11 +734,6 @@ svg {
   overflow: hidden;
 }
 
-.projects-img {
-  width: 288px;
-  height: 280px;
-}
-
 .overlay-text {
   font-size: 16px;
   line-height: 1.5;
@@ -796,10 +791,6 @@ svg {
     width: calc((100% - 24px) / 2);
     height: calc((100% - 216px) / 3);
   }
-  .projects-img {
-    width: 356px;
-    height: 300px;
-  }
 }
 
 @media screen and (min-width: 1158px) {
@@ -819,11 +810,6 @@ svg {
   .projects-item:hover {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
       0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  }
-
-  .projects-img {
-    width: 360px;
-    height: 300px;
   }
 }
 /* =======================PORTFOLIO======================= */
@@ -978,4 +964,49 @@ svg {
 .subscribe-btn:focus,
 .subscribe-btn:hover {
   background-color: #31d0aa;
+}
+
+@media screen and (min-width: 768px) {
+  .div-footer {
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
+  }
+  .container-footer {
+    display: flex;
+    align-items: baseline;
+  }
+
+  .footer-title {
+    max-width: 264px;
+    align-items: flex-start;
+  }
+
+  .logo {
+    margin-right: 0;
+  }
+
+  .footer-social-text {
+    text-align: start;
+  }
+
+  .form-field {
+    flex-direction: row;
+    column-gap: 24px;
+  }
+
+  .subscribe-input {
+    margin-bottom: 0;
+    width: 264px;
+  }
+
+  .subscribe-title {
+    text-align: start;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .logo {
+    margin-right: 120px;
+  }
 }
