@@ -238,6 +238,7 @@ svg {
   opacity: 1;
   visibility: visible;
   cursor: auto;
+  z-index: 999;
 }
 
 .burger-menu-div {
